@@ -1,6 +1,7 @@
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
+import scipy
 import random
 from provided import parse_sdf
 
@@ -60,9 +61,9 @@ class Molecule:
     @property
     def fingerprint(self):
         """Property for accessing the molecular fingerprint of a Molecule"""
-        return self.get_fingerprint()
+        return self._get_fingerprint()
 
-    def get_fingerprint(self):
+    def _get_fingerprint(self):
         """
         Returns a 1024-bit molecular fingerprint of a molecule by converting
         all bond paths up to length of 7 to its SMILES equivalent, hashing

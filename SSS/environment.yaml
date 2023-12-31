@@ -9,4 +9,5 @@ dependencies:
   - networkx
   - numpy
   - matplotlib
+  - scipy
   - pytest
