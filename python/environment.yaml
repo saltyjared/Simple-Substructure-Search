@@ -1,0 +1,12 @@
+name: chem274A_final_python
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - networkx
+  - numpy
+  - matplotlib
+  - pytest
