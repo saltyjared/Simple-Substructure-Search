@@ -3,7 +3,7 @@
 **S**imple **S**ubstructure **S**earch is a Python module, capable of processing input `.sdf` files, creating graphical representations of a molecule, and searching for substructures within a given molecule. This module was developed as part of the final project for CHEM 274A - Programming Languages for Molecular Sciences: Python and C++.
 
 <p align="center">
-    ![Graphical representation of TNT](images/tnt.png)
+    <img src="images/tnt.png" alt="Graphical representation of TNT">
 </p>
 <p align = "center"><i>Graphical representation of TNT</i></p>
 
